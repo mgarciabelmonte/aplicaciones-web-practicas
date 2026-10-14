@@ -1,13 +1,6 @@
 #!/bin/bash
 # =====================================================================
 #  preparar_examen.sh  ·  Aplicaciones Web · 2º SMR
-#
-#  Deja Apache en estado limpio para empezar el examen:
-#    1. Guarda una copia de seguridad de lo que hay (por si acaso).
-#    2. Elimina los sitios de Apache (sites-available y sites-enabled).
-#    3. Vacía /var/www/html.
-#    4. Deja disponible, pero SIN habilitar, el sitio por defecto.
-#
 #  Uso:  sudo bash preparar_examen.sh
 # =====================================================================
 
